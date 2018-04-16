@@ -1,0 +1,9 @@
+fecha_emision_cc,fecha_alta,id,contrato_id,_tipo,tipo,codigo_contratacion,_estado,estado,descripcion,monto,_moneda,moneda,vigencia_contrato,fecha_contrato,nro_contrato,url
+fecha_emision_cc,fecha_alta,id,contrato_id,_tipo,tipo,codigo_contratacion,_estado,estado,descripcion,monto,_moneda,moneda,vigencia_contrato,fecha_contrato,nro_contrato,url
+fecha_emision_cc,fecha_alta,id,contrato_id,_tipo,tipo,codigo_contratacion,_estado,estado,descripcion,monto,_moneda,moneda,vigencia_contrato,fecha_contrato,nro_contrato,url
+fecha_emision_cc,fecha_alta,id,contrato_id,_tipo,tipo,codigo_contratacion,_estado,estado,descripcion,monto,_moneda,moneda,vigencia_contrato,fecha_contrato,nro_contrato,url
+fecha_emision_cc,fecha_alta,id,contrato_id,_tipo,tipo,codigo_contratacion,_estado,estado,descripcion,monto,_moneda,moneda,vigencia_contrato,fecha_contrato,nro_contrato,url
+fecha_emision_cc,fecha_alta,id,contrato_id,_tipo,tipo,codigo_contratacion,_estado,estado,descripcion,monto,_moneda,moneda,vigencia_contrato,fecha_contrato,nro_contrato,url
+fecha_emision_cc,fecha_alta,id,contrato_id,_tipo,tipo,codigo_contratacion,_estado,estado,descripcion,monto,_moneda,moneda,vigencia_contrato,fecha_contrato,nro_contrato,url
+fecha_emision_cc,fecha_alta,id,contrato_id,_tipo,tipo,codigo_contratacion,_estado,estado,descripcion,monto,_moneda,moneda,vigencia_contrato,fecha_contrato,nro_contrato,url
+fecha_emision_cc,fecha_alta,id,contrato_id,_tipo,tipo,codigo_contratacion,_estado,estado,descripcion,monto,_moneda,moneda,vigencia_contrato,fecha_contrato,nro_contrato,url

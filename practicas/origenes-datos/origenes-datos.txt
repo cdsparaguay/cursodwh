@@ -1,0 +1,13 @@
+    presupuesto general de la nacion (PGN): https://datos.hacienda.gov.py/data/pgn-gasto/descargas
+    El proceso de pago tiene estos conjuntos de datos
+        Certificado de disponibilidad presupuestaria: https://datos.hacienda.gov.py/data/cdp/descargas
+        Obligaciones: https://datos.hacienda.gov.py/data/obligacion/descargas
+        Solicitud de transferencia de recursos: https://datos.hacienda.gov.py/data/str/descargas
+        Órdenes de transferencia: https://datos.hacienda.gov.py/data/orden-transferencia/descargas
+    Para los contratos de DNCP es necesario descargar varios conjuntos de datos:
+        Planificación: https://contrataciones.gov.py/datos/planificaciones
+        Convocatorias: https://contrataciones.gov.py/datos/convocatorias
+        Adjudicación: https://contrataciones.gov.py/datos/adjudicaciones
+        Contrato: https://contrataciones.gov.py/datos/contratos
+        Adendas: https://contrataciones.gov.py/datos/modificaciones
+        Catálogo: https://contrataciones.gov.py/datos/catalogo 
