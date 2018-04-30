@@ -1,6 +1,6 @@
 CREATE TABLE public.dim_tiempo
 (
-	DateSid numeric PRIMARY KEY
+	id numeric PRIMARY KEY
 	, DayInDimension character varying
 	, DimensionDate character varying
 	, Year numeric
