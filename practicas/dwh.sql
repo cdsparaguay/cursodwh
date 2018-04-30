@@ -18,6 +18,8 @@ CREATE TABLE public.dim_tiempo
 	, DayInYear numeric
 );
 
+INSERT INTO dim_tiempo VALUES (0, 'No Asignado', 'No Asignado', 0, 0, 0, 0, 0, 'No Asignado', 'No Asignado', 'No Asignado', 'No Asignado', 0, 0, 0, 0);
+
 CREATE TABLE dim_clasificador_entidad (
 id bigserial,
 anho numeric(4,0),
@@ -27,7 +29,7 @@ entidad_codigo Numeric(5,0),
 entidad_descripcion character varying,
 unidad_jerarquica_codigo Numeric(7,0),
 unidad_jerarquica_descripcion character varying,
-uaf_codigo Numeric(5,0),
+uaf_codigo Numeric(7,0),
 uaf_descripcion character varying,
 unidad_responsable_codigo Numeric(5,0),
 unidad_responsable_descripcion character varying,
@@ -36,6 +38,8 @@ fecha_fin_vigencia timestamp without time zone,
 actual numeric(1,0),
 checksum character varying,
 CONSTRAINT pk_dim_clasificador_entidad PRIMARY KEY (id) );
+
+INSERT INTO dim_clasificador_entidad VALUES (0,0,0,'No Asignado',0,'No Asignado',0,'No Asignado',0,'No Asignado',0,'No Asignado','1950-01-01','1950-01-01',0,'No Asignado');
 
 CREATE TABLE dim_clasificador_programa (
 id bigserial,
@@ -54,6 +58,8 @@ actual numeric(1,0),
 checksum character varying,
 CONSTRAINT pk_dim_clasificador_programa PRIMARY KEY (id) );
 
+INSERT INTO dim_clasificador_programa VALUES (0,0,0,'No Asignado',0,'No Asignado',0,'No Asignado',0,'No Asignado','1950-01-01','1950-01-01',0,'No Asignado');
+
 CREATE TABLE dim_clasificador_objeto_gasto (
 id bigserial,
 anho numeric(4,0),
@@ -69,6 +75,8 @@ actual numeric(1,0),
 checksum character varying,
 CONSTRAINT pk_dim_clasificador_objeto_gasto PRIMARY KEY (id) );
 
+INSERT INTO dim_clasificador_objeto_gasto VALUES(0,0,0,'No Asignado',0,'No Asignado',0,'No Asignado','1950-01-01','1950-01-01',0,'No Asignado');
+
 CREATE TABLE dim_clasificador_control_financiero (
 id bigserial,
 anho numeric(4,0),
@@ -79,6 +87,8 @@ fecha_fin_vigencia timestamp without time zone,
 actual numeric(1,0),
 checksum character varying,
 CONSTRAINT pk_dim_clasificador_control_financiero PRIMARY KEY (id) );
+
+INSERT INTO dim_clasificador_control_financiero VALUES(0,0,0,'No Asignado','1950-01-01','1950-01-01',0,'No Asignado');
 
 CREATE TABLE dim_clasificador_funcion (
 id bigserial,
@@ -95,6 +105,8 @@ actual numeric(1,0),
 checksum character varying,
 CONSTRAINT pk_dim_clasificador_funcion PRIMARY KEY (id) );
 
+INSERT INTO dim_clasificador_funcion VALUES(0,0,0,'No Asignado',0,'No Asignado',0,'No Asignado','1950-01-01','1950-01-01',0,'No Asignado');
+
 CREATE TABLE dim_clasificador_fuente_financiamiento (
 id bigserial,
 anho numeric(4,0),
@@ -107,6 +119,8 @@ fecha_fin_vigencia timestamp without time zone,
 actual numeric(1,0),
 checksum character varying,
 CONSTRAINT pk_dim_clasificador_fuente_financiamiento PRIMARY KEY (id) );
+
+INSERT INTO dim_clasificador_fuente_financiamiento VALUES (0,0,0,'No Asignado',0,'No Asignado','1950-01-01','1950-01-01',0,'No Asignado');
 
 CREATE TABLE dim_clasificador_geografico (
 id bigserial,
@@ -121,6 +135,8 @@ fecha_fin_vigencia timestamp without time zone,
 actual numeric(1,0),
 checksum character varying,
 CONSTRAINT pk_dim_clasificador_geografico PRIMARY KEY (id) );
+
+INSERT INTO dim_clasificador_geografico VALUES (0,0,'No Asignado','No Asignado',0,'No Asignado','No Asignado','1950-01-01','1950-01-01',0,'No Asignado');
 
 CREATE TABLE dim_proveedor (
 id bigserial,
@@ -138,6 +154,8 @@ actual numeric(1,0),
 checksum character varying,
 CONSTRAINT pk_dim_proveedor PRIMARY KEY (id) );
 
+INSERT INTO dim_proveedor VALUES (0,0,'No Asignado','No Asignado','No Asignado','No Asignado','No Asignado','No Asignado','No Asignado','1950-01-01','1950-01-01',0,'No Asignado');
+
 CREATE TABLE dim_cuenta_bancaria (
 id bigserial,
 banco_codigo character varying,
@@ -153,6 +171,8 @@ actual numeric(1,0),
 checksum character varying,
 CONSTRAINT pk_dim_cuenta_bancaria PRIMARY KEY (id) );
 
+INSERT INTO dim_cuenta_bancaria VALUES (0,'No Asignado','No Asignado','No Asignado','No Asignado','No Asignado','No Asignado','No Asignado','1950-01-01','1950-01-01',0,'No Asignado');
+
 CREATE TABLE dim_categoria_dncp (
 id bigserial,
 categoria_codigo Numeric(5,0),
@@ -162,6 +182,8 @@ fecha_fin_vigencia timestamp without time zone,
 actual numeric(1,0),
 checksum character varying,
 CONSTRAINT pk_dim_categoria_dncp PRIMARY KEY (id) );
+
+INSERT INTO dim_categoria_dncp VALUES (0,0,'No Asignado','1950-01-01','1950-01-01',0,'No Asignado');
 
 CREATE TABLE dim_tipo_procedimiento_dncp (
 id bigserial,
@@ -173,6 +195,8 @@ actual numeric(1,0),
 checksum character varying,
 CONSTRAINT pk_dim_tipo_procedimiento_dncp PRIMARY KEY (id) );
 
+INSERT INTO dim_tipo_procedimiento_dncp VALUES (0,0,'No Asignado','1950-01-01','1950-01-01',0,'No Asignado');
+
 CREATE TABLE dim_junk_obligacion (
 id bigserial,
 concepto_obligacion_codigo Numeric(5,0),
@@ -182,6 +206,8 @@ fecha_fin_vigencia timestamp without time zone,
 actual numeric(1,0),
 checksum character varying,
 CONSTRAINT pk_dim_junk_obligacion PRIMARY KEY (id) );
+
+INSERT INTO dim_junk_obligacion VALUES (0,0,'No Asignado','1950-01-01','1950-01-01',0,'No Asignado');
 
 CREATE TABLE dim_junk_str (
 id bigserial,
@@ -197,6 +223,8 @@ actual numeric(1,0),
 checksum character varying,
 CONSTRAINT pk_dim_junk_str PRIMARY KEY (id) );
 
+INSERT INTO dim_junk_str VALUES (0,0,'No Asignado',0,'No Asignado','No Asignado','No Asignado','1950-01-01','1950-01-01',0,'No Asignado');
+
 CREATE TABLE dim_junk_ot (
 id bigserial,
 concepto_codigo Numeric(5,0),
@@ -206,6 +234,8 @@ fecha_fin_vigencia timestamp without time zone,
 actual numeric(1,0),
 checksum character varying,
 CONSTRAINT pk_dim_junk_ot PRIMARY KEY (id) );
+
+INSERT INTO dim_junk_ot VALUES (0,0,'No Asignado','1950-01-01','1950-01-01',0,'No Asignado');
 
 CREATE TABLE dim_junk_contrato (
 id bigserial,
@@ -221,6 +251,8 @@ fecha_fin_vigencia timestamp without time zone,
 actual numeric(1,0),
 checksum character varying,
 CONSTRAINT pk_dim_junk_contrato PRIMARY KEY (id) );
+
+INSERT INTO dim_junk_contrato VALUES (0,'No Asignado','No Asignado','No Asignado',0,'No Asignado','No Asignado','No Asignado','1950-01-01','1950-01-01',0,'No Asignado');
 
 CREATE TABLE fact_obligacion (
 id bigserial,

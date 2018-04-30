@@ -565,7 +565,7 @@ Transformation</note>
       <schema_name />
     </partitioning>
     <formula>
-      <field_name>DateSid</field_name>
+      <field_name>id</field_name>
       <formula_string>Year([DimensionDate])*10000 + Month([DimensionDate]) *100 + day([DimensionDate])</formula_string>
       <value_type>Number</value_type>
       <value_length>-1</value_length>
@@ -713,7 +713,7 @@ datedif(date(year([FirstDate])+1;1;1);[DimensionDate];"m")+1)</formula_string>
     <schema />
     <table>dim_tiempo</table>
     <commit>1000</commit>
-    <truncate>Y</truncate>
+    <truncate>N</truncate>
     <ignore_errors>N</ignore_errors>
     <use_batch>Y</use_batch>
     <specify_fields>Y</specify_fields>
@@ -736,8 +736,8 @@ datedif(date(year([FirstDate])+1;1;1);[DimensionDate];"m")+1)</formula_string>
         <stream_name>DimensionDate</stream_name>
       </field>
       <field>
-        <column_name>DateSid</column_name>
-        <stream_name>DateSid</stream_name>
+        <column_name>id</column_name>
+        <stream_name>id</stream_name>
       </field>
       <field>
         <column_name>YEAR</column_name>
