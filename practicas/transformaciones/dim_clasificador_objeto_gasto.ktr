@@ -949,11 +949,9 @@ var checksum = MD5(inputs);</jsScript_script>
     <fields>
       <field>
         <name>anho</name>
-        <rename />
       </field>
       <field>
         <name>codigogrupoobjeto</name>
-        <rename />
       </field>
       <field>
         <name>grupoobjetogasto</name>
@@ -961,7 +959,6 @@ var checksum = MD5(inputs);</jsScript_script>
       </field>
       <field>
         <name>codigosubgrupoobjeto</name>
-        <rename />
       </field>
       <field>
         <name>subgrupoobjetogasto</name>
@@ -969,7 +966,6 @@ var checksum = MD5(inputs);</jsScript_script>
       </field>
       <field>
         <name>codigoobjeto</name>
-        <rename />
       </field>
       <field>
         <name>objetogasto</name>
@@ -1078,7 +1074,7 @@ var checksum = MD5(inputs);</jsScript_script>
 , codigoobjeto
 , objetogasto
 from ods.mh_obligaciones
-limit 5000</sql>
+</sql>
     <limit>0</limit>
     <lookup />
     <execute_each_row>N</execute_each_row>
