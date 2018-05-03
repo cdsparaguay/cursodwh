@@ -929,11 +929,9 @@ var checksum = MD5(inputs);</jsScript_script>
     <fields>
       <field>
         <name>anio</name>
-        <rename />
       </field>
       <field>
         <name>codigofuentefinanciamiento</name>
-        <rename />
       </field>
       <field>
         <name>descripcionfuentefinanciamiento</name>
@@ -941,7 +939,6 @@ var checksum = MD5(inputs);</jsScript_script>
       </field>
       <field>
         <name>codigoorganismofinanciador</name>
-        <rename />
       </field>
       <field>
         <name>descripcionorganismofinanciador</name>
@@ -1031,6 +1028,13 @@ var checksum = MD5(inputs);</jsScript_script>
 , codigoorganismofinanciador
 , descripcionorganismofinanciador
 from ods.mh_pgn
+union
+select distinct anho
+, codigofuentefinanciamiento
+, fuentefinanciamiento
+, null as codigoorganismofinanciador
+, null as descripcionorganismofinanciador
+from ods.mh_obligaciones
 </sql>
     <limit>0</limit>
     <lookup />
