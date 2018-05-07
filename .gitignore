@@ -1,3 +1,4 @@
 *.csv
+!/practicas/2018-05-03-cursodwh.sql.zip
 *.zip
 *.md5
