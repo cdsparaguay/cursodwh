@@ -522,7 +522,7 @@
     <add_filename_result>N</add_filename_result>
     <parallel>N</parallel>
     <newline_possible>N</newline_possible>
-    <encoding />
+    <encoding>windows-1252</encoding>
     <fields>
       <field>
         <name>anho</name>
@@ -537,7 +537,7 @@
       </field>
       <field>
         <name>codigoNivel</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -548,7 +548,7 @@
       </field>
       <field>
         <name>descripcionNivel</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -559,7 +559,7 @@
       </field>
       <field>
         <name>codigoEntidad</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -570,7 +570,7 @@
       </field>
       <field>
         <name>descripcionEntidad</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -581,7 +581,7 @@
       </field>
       <field>
         <name>codigoFuenteFinanciamiento</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -592,7 +592,7 @@
       </field>
       <field>
         <name>fuenteFinanciamiento</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -603,7 +603,7 @@
       </field>
       <field>
         <name>codigoOrganismo</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -614,7 +614,7 @@
       </field>
       <field>
         <name>descripcionOrganismo</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -625,7 +625,7 @@
       </field>
       <field>
         <name>codigoNVL</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -636,7 +636,7 @@
       </field>
       <field>
         <name>descripcionNVL</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -647,7 +647,7 @@
       </field>
       <field>
         <name>codigoTipoSolicitud</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -658,7 +658,7 @@
       </field>
       <field>
         <name>descripcionTipoSolicitud</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -669,7 +669,7 @@
       </field>
       <field>
         <name>detalleSolicitud</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -680,7 +680,7 @@
       </field>
       <field>
         <name>numeroStr</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -691,7 +691,7 @@
       </field>
       <field>
         <name>ruc</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -702,7 +702,7 @@
       </field>
       <field>
         <name>razonSocial</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -713,7 +713,7 @@
       </field>
       <field>
         <name>obligacionesAsociadas</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -724,7 +724,7 @@
       </field>
       <field>
         <name>importeSolicitado</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -735,7 +735,7 @@
       </field>
       <field>
         <name>importeTransferido</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -746,7 +746,7 @@
       </field>
       <field>
         <name>importeDeducciones</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -757,7 +757,7 @@
       </field>
       <field>
         <name>situacionStr</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -768,7 +768,7 @@
       </field>
       <field>
         <name>fechaAprobacion</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -779,7 +779,7 @@
       </field>
       <field>
         <name>fechaAnulacion</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -790,7 +790,7 @@
       </field>
       <field>
         <name>fechaIngreso</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -801,7 +801,7 @@
       </field>
       <field>
         <name>fechaActualizacion</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -812,7 +812,7 @@
       </field>
       <field>
         <name>fechaCancelacion</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -823,7 +823,7 @@
       </field>
       <field>
         <name>fechaAutorizacion</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -834,7 +834,7 @@
       </field>
       <field>
         <name>fechaTesoro</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -845,7 +845,7 @@
       </field>
       <field>
         <name>codigoUaf</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -856,7 +856,7 @@
       </field>
       <field>
         <name>descripcionUaf</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -867,7 +867,7 @@
       </field>
       <field>
         <name>mesCorte</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -878,7 +878,7 @@
       </field>
       <field>
         <name>anhoCorte</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -889,7 +889,7 @@
       </field>
       <field>
         <name>fechaCorte</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -900,7 +900,7 @@
       </field>
       <field>
         <name>concepto</name>
-        <type>None</type>
+        <type>String</type>
         <format />
         <currency />
         <decimal />
@@ -937,143 +937,108 @@
     <fields>
       <field>
         <name>anho</name>
-        <rename />
       </field>
       <field>
         <name>codigoNivel</name>
-        <rename />
       </field>
       <field>
         <name>descripcionNivel</name>
-        <rename />
       </field>
       <field>
         <name>codigoEntidad</name>
-        <rename />
       </field>
       <field>
         <name>descripcionEntidad</name>
-        <rename />
       </field>
       <field>
         <name>codigoFuenteFinanciamiento</name>
-        <rename />
       </field>
       <field>
         <name>fuenteFinanciamiento</name>
-        <rename />
       </field>
       <field>
         <name>codigoOrganismo</name>
-        <rename />
       </field>
       <field>
         <name>descripcionOrganismo</name>
-        <rename />
       </field>
       <field>
         <name>codigoNVL</name>
-        <rename />
       </field>
       <field>
         <name>descripcionNVL</name>
-        <rename />
       </field>
       <field>
         <name>codigoTipoSolicitud</name>
-        <rename />
       </field>
       <field>
         <name>descripcionTipoSolicitud</name>
-        <rename />
       </field>
       <field>
         <name>detalleSolicitud</name>
-        <rename />
       </field>
       <field>
         <name>numeroStr</name>
-        <rename />
       </field>
       <field>
         <name>ruc</name>
-        <rename />
       </field>
       <field>
         <name>razonSocial</name>
-        <rename />
       </field>
       <field>
         <name>obligacionesAsociadas</name>
-        <rename />
       </field>
       <field>
         <name>importeSolicitado</name>
-        <rename />
       </field>
       <field>
         <name>importeTransferido</name>
-        <rename />
       </field>
       <field>
         <name>importeDeducciones</name>
-        <rename />
       </field>
       <field>
         <name>situacionStr</name>
-        <rename />
       </field>
       <field>
         <name>fechaAprobacion</name>
-        <rename />
       </field>
       <field>
         <name>fechaAnulacion</name>
-        <rename />
       </field>
       <field>
         <name>fechaIngreso</name>
-        <rename />
       </field>
       <field>
         <name>fechaActualizacion</name>
-        <rename />
       </field>
       <field>
         <name>fechaCancelacion</name>
-        <rename />
       </field>
       <field>
         <name>fechaAutorizacion</name>
-        <rename />
       </field>
       <field>
         <name>fechaTesoro</name>
-        <rename />
       </field>
       <field>
         <name>codigoUaf</name>
-        <rename />
       </field>
       <field>
         <name>descripcionUaf</name>
-        <rename />
       </field>
       <field>
         <name>mesCorte</name>
-        <rename />
       </field>
       <field>
         <name>anhoCorte</name>
-        <rename />
       </field>
       <field>
         <name>fechaCorte</name>
-        <rename />
       </field>
       <field>
         <name>concepto</name>
-        <rename />
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
