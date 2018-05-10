@@ -175,6 +175,7 @@ INSERT INTO dim_cuenta_bancaria VALUES (0,'No Asignado','No Asignado','No Asigna
 
 CREATE TABLE dim_categoria_dncp (
 id bigserial,
+categoria_id Numeric(5,0),
 categoria_codigo Numeric(5,0),
 categoria_descripcion character varying,
 fecha_vigencia timestamp without time zone,
@@ -183,11 +184,12 @@ actual numeric(1,0),
 checksum character varying,
 CONSTRAINT pk_dim_categoria_dncp PRIMARY KEY (id) );
 
-INSERT INTO dim_categoria_dncp VALUES (0,0,'No Asignado','1950-01-01','1950-01-01',0,'No Asignado');
+INSERT INTO dim_categoria_dncp VALUES (0,0,0,'No Asignado','1950-01-01','1950-01-01',0,'No Asignado');
 
 CREATE TABLE dim_tipo_procedimiento_dncp (
 id bigserial,
 tipo_procedimiento_codigo Numeric(5,0),
+tipo_procedimiento_abreviatura character varying,
 tipo_procedimiento_descripcion character varying,
 fecha_vigencia timestamp without time zone,
 fecha_fin_vigencia timestamp without time zone,
@@ -195,7 +197,7 @@ actual numeric(1,0),
 checksum character varying,
 CONSTRAINT pk_dim_tipo_procedimiento_dncp PRIMARY KEY (id) );
 
-INSERT INTO dim_tipo_procedimiento_dncp VALUES (0,0,'No Asignado','1950-01-01','1950-01-01',0,'No Asignado');
+INSERT INTO dim_tipo_procedimiento_dncp VALUES (0,0,'No Asignado','No Asignado','1950-01-01','1950-01-01',0,'No Asignado');
 
 CREATE TABLE dim_junk_obligacion (
 id bigserial,
@@ -248,7 +250,6 @@ id bigserial,
 nombre_licitacion character varying,
 convocante character varying,
 estado character varying,
-moneda_codigo Numeric(5,0),
 moneda_simbolo character varying,
 moneda_descripcion character varying,
 vigencia_contrato character varying,
@@ -258,7 +259,7 @@ actual numeric(1,0),
 checksum character varying,
 CONSTRAINT pk_dim_junk_contrato PRIMARY KEY (id) );
 
-INSERT INTO dim_junk_contrato VALUES (0,'No Asignado','No Asignado','No Asignado',0,'No Asignado','No Asignado','No Asignado','1950-01-01','1950-01-01',0,'No Asignado');
+INSERT INTO dim_junk_contrato VALUES (0,'No Asignado','No Asignado','No Asignado','No Asignado','No Asignado','No Asignado','1950-01-01','1950-01-01',0,'No Asignado');
 
 CREATE TABLE fact_obligacion (
 id bigserial,
