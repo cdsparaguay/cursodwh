@@ -78,4 +78,4 @@ CREATE TABLE br_obligacion_str (
 id bigserial,
 obligacion bigint,
 str bigint,
-CONSTRAINT pk_br_obligacion_contrato PRIMARY KEY (id) );
+CONSTRAINT pk_br_obligacion_str PRIMARY KEY (id) );
