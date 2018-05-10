@@ -1,6 +1,8 @@
 DROP TABLE fact_contrato;
 DROP TABLE dim_categoria_dncp;
 DROP TABLE dim_tipo_procedimiento_dncp; 
+TRUNCATE TABLE dim_junk_obligacion;
+TRUNCATE TABLE fact_obligacion;
 
 CREATE TABLE dim_categoria_dncp (
 id bigserial,
