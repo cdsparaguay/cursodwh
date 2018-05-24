@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="internals">
+<config key="betas">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xdouble" value="-74.85296063252667"/>
+<entry key="1" type="xdouble" value="64.2440855395515"/>
+<entry key="2" type="xdouble" value="-4.102859743359085"/>
+<entry key="3" type="xdouble" value="0.12775809582057773"/>
+<entry key="4" type="xdouble" value="-0.0018754255573750337"/>
+<entry key="5" type="xdouble" value="1.0840373169985948E-5"/>
+</config>
+<config key="columnNames">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="rownum"/>
+</config>
+<entry key="squaredError" type="xdouble" value="31754.88044409132"/>
+<entry key="adjustedSquaredError" type="xdouble" value="0.3378280692300941"/>
+<config key="meanValues">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xdouble" value="30.0"/>
+</config>
+<config key="stdErrors">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xdouble" value="56.0811735177177"/>
+<entry key="1" type="xdouble" value="5.672021041103287"/>
+<entry key="2" type="xdouble" value="0.2374115650070447"/>
+<entry key="3" type="xdouble" value="0.004347410631411679"/>
+<entry key="4" type="xdouble" value="2.8843228970763402E-5"/>
+<entry key="5" type="xdouble" value="171.61891758525198"/>
+</config>
+<config key="tValues">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xdouble" value="1.1455552997523295"/>
+<entry key="1" type="xdouble" value="-0.7233505859070335"/>
+<entry key="2" type="xdouble" value="0.5381292011481698"/>
+<entry key="3" type="xdouble" value="-0.4313890994847318"/>
+<entry key="4" type="xdouble" value="0.3758377115465874"/>
+<entry key="5" type="xdouble" value="-0.43615798121639676"/>
+</config>
+<config key="pValues">
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xdouble" value="0.25712558321829393"/>
+<entry key="1" type="xdouble" value="0.47264499334515486"/>
+<entry key="2" type="xdouble" value="0.592740657704323"/>
+<entry key="3" type="xdouble" value="0.6679351805864482"/>
+<entry key="4" type="xdouble" value="0.708537728340564"/>
+<entry key="5" type="xdouble" value="0.6644936444198948"/>
+</config>
+</config>
