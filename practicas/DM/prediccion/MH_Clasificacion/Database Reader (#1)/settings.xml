@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="statement" type="xstring" value="select fo.fecha_factura, fot.fecha_deposito, dp.id as proveedor_id,%%00010%%00009de.id as entidad_id, dog.objeto_gasto_codigo, %%00010%%00009(dtdeposito.dayindimension::int-dtfactura.dayindimension::int) as diff,%%00010%%00009de.entidad_descripcion,dog.objeto_gasto_descripcion,dp.razon_social%%00010%%00010from fact_obligacion fo, fact_ot fot, dim_junk_obligacion djo,%%00010%%00009v_contrato vo, fact_contrato fc, dim_proveedor dp,%%00010%%00009dim_clasificador_entidad de, dim_clasificador_objeto_gasto dog,%%00010%%00009dim_tiempo dtfactura, dim_tiempo dtdeposito,%%00010%%00009dim_tiempo dtob, dim_tiempo dtot%%00010%%00010where fo.numero_str = fot.numero_str%%00010%%00009and fo.fecha_aprobacion = dtob.id%%00010%%00009and fot.fecha_generacion = dtot.id%%00010%%00009and dtob.year = dtot.year %%00010%%00009and dtob.month = dtot.month%%00010%%00009and fo.junk_obligacion = djo.id%%00010%%00009and vo.codigo_contratacion = djo.codigo_contratacion%%00010%%00009and vo.contrato_id = fc.id%%00010%%00009and dp.id = fc.proveedor%%00010%%00009and fo.clasificador_entidad = de.id%%00010%%00009and fo.clasificador_objeto_gasto = dog.id%%00010%%00009and dtfactura.id = fo.fecha_factura%%00010%%00009and dtdeposito.id = fot.fecha_deposito%%00010%%00009and dtfactura.id &gt; 0%%00010%%00009and dtdeposito.id &gt; 0%%00010order by diff"/>
+<entry key="execute_without_configure" type="xboolean" value="true"/>
+<entry key="driver" type="xstring" value="org.postgresql.Driver"/>
+<entry key="database" type="xstring" value="jdbc:postgresql://localhost:5432/cursodwh"/>
+<entry key="user" type="xstring" value="[Workflows edited with 3.4.1, will not work in older versions]"/>
+<entry key="userName" type="xstring" value="postgres"/>
+<entry key="passwordEncrypted" type="xpassword" value="018C231BE780C39B0353C6728CD1D33638"/>
+<entry key="password" type="xstring" isnull="true" value=""/>
+<entry key="timezone" type="xstring" value="current"/>
+<entry key="validateConnection" type="xboolean" value="false"/>
+<entry key="retrieveMetadataInConfigure" type="xboolean" value="false"/>
+<entry key="allowSpacesInColumnNames" type="xboolean" value="true"/>
+<entry key="rowIdsStartWithZero" type="xboolean" value="false"/>
+<entry key="databaseIdentifier" type="xstring" isnull="true" value=""/>
+<entry key="kerberos" type="xboolean" value="false"/>
+<entry key="knimeVersion" type="xstring" value="3.4.2"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.io.database.DBReaderNodeFactory"/>
+<entry key="node-name" type="xstring" value="Database Reader"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-bundle-version" type="xstring" value="3.4.2.v201711100922"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-feature-version" type="xstring" value="3.4.2.v201711100944"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Database Reader"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 27908, Cols: 9"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="ef1df488-124e-4c61-bb46-6ee924be0c72"/>
+</config>
+</config>

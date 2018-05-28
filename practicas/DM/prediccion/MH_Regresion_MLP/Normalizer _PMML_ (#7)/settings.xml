@@ -10,9 +10,10 @@
 <entry key="newmin" type="xdouble" value="0.0"/>
 <entry key="newmax" type="xdouble" value="1.0"/>
 <config key="columns">
-<entry key="array-size" type="xint" value="2"/>
+<entry key="array-size" type="xint" value="3"/>
 <entry key="0" type="xstring" value="monto_obligado"/>
 <entry key="1" type="xstring" value="monto_obligado(-12)"/>
+<entry key="2" type="xstring" value="monto_obligado(-24)"/>
 </config>
 <entry key="all_numeric_columns_used" type="xboolean" value="false"/>
 </config>
@@ -51,7 +52,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 47, Cols: 4"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 35, Cols: 5"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 <config key="port_2">
@@ -66,6 +67,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="8f651bd5-4b55-4001-931f-a007e903a989"/>
+<entry key="file_store_id" type="xstring" value="06e2c218-7d5c-4ab9-a5c6-42c354e1ac1c"/>
 </config>
 </config>

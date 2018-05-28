@@ -7,7 +7,7 @@
 </config>
 <config key="model">
 <entry key="column" type="xstring" value="monto_obligado"/>
-<entry key="lag" type="xint" value="1"/>
+<entry key="lag" type="xint" value="2"/>
 <entry key="lag_interval" type="xint" value="12"/>
 <entry key="skipInitialIncompleteRows" type="xboolean" value="true"/>
 <entry key="skipLastIncompleteRows" type="xboolean" value="true"/>
@@ -47,12 +47,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 47, Cols: 4"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 35, Cols: 5"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="41f628ce-4f2f-4814-8bd1-f2079faf4bfc"/>
+<entry key="file_store_id" type="xstring" value="a8894e8e-8857-41a6-bd51-3550bd0a4606"/>
 </config>
 </config>

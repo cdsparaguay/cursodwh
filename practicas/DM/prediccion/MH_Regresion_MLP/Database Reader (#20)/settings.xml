@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="statement" type="xstring" value="select t.monto_obligado/1000000000 as monto_obligado, t.year||'-'||t.month as anhomes,%%00010row_number() over (ORDER BY t.year, t.month) as rownum%%00010from (select sum(fo.monto_obligado) as monto_obligado, dt.year, dt.month%%00010from fact_obligacion fo, dim_tiempo dt%%00010where fo.fecha_aprobacion = dt.id%%00010and fo.fecha_aprobacion &gt;= 20160101%%00010group by dt.year, dt.month) t%%00010order by t.year, t.month"/>
+<entry key="statement" type="xstring" value="select t.monto_obligado/1000000000 as monto_obligado, t.year||'-'||t.month as anhomes,%%00010row_number() over (ORDER BY t.year, t.month) as rownum%%00010from (select sum(fo.monto_obligado) as monto_obligado, dt.year, dt.month%%00010from fact_obligacion fo, dim_tiempo dt%%00010where fo.fecha_aprobacion = dt.id%%00010and fo.fecha_aprobacion &gt;= 20150101%%00010group by dt.year, dt.month) t%%00010order by t.year, t.month"/>
 <entry key="execute_without_configure" type="xboolean" value="true"/>
 <entry key="driver" type="xstring" value="org.postgresql.Driver"/>
 <entry key="database" type="xstring" value="jdbc:postgresql://localhost:5432/cursodwh"/>
@@ -58,12 +58,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 23, Cols: 3"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 35, Cols: 3"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="e8ae7f8f-ee51-4757-b110-d1517730f7f8"/>
 </config>
 </config>

@@ -9,9 +9,10 @@
 <config key="column-filter">
 <entry key="filter-type" type="xstring" value="STANDARD"/>
 <config key="included_names">
-<entry key="array-size" type="xint" value="2"/>
+<entry key="array-size" type="xint" value="3"/>
 <entry key="0" type="xstring" value="monto_obligado"/>
 <entry key="1" type="xstring" value="monto_obligado(-12)"/>
+<entry key="2" type="xstring" value="monto_obligado(-24)"/>
 </config>
 <config key="excluded_names">
 <entry key="array-size" type="xint" value="2"/>
@@ -71,12 +72,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 47, Cols: 2"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 35, Cols: 3"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="9bf46cd5-bbf9-4cee-b7a5-07484db5bd86"/>
+<entry key="file_store_id" type="xstring" value="e0932abb-e3c4-47af-a2e1-0ffe76139003"/>
 </config>
 </config>

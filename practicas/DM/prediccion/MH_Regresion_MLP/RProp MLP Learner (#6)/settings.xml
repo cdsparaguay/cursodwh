@@ -15,12 +15,12 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="hiddenlayer" type="xint" value="2"/>
+<entry key="hiddenlayer" type="xint" value="4"/>
 <config key="nrhiddenneurons_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="nrhiddenneurons" type="xint" value="5"/>
+<entry key="nrhiddenneurons" type="xint" value="10"/>
 <config key="classcol_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -85,6 +85,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="2c935ec2-a561-459e-98a4-931a7e144861"/>
+<entry key="file_store_id" type="xstring" value="0945b4ef-3c8c-4d31-a620-1581de717438"/>
 </config>
 </config>
