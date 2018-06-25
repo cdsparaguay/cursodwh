@@ -734,15 +734,12 @@
     <fields>
       <field>
         <name>categoria_id</name>
-        <rename />
       </field>
       <field>
         <name>categoria_codigo</name>
-        <rename />
       </field>
       <field>
         <name>tipo_procedimiento_id</name>
-        <rename />
       </field>
       <field>
         <name>tipo_procedimiento_codigo</name>
@@ -750,47 +747,36 @@
       </field>
       <field>
         <name>ruc</name>
-        <rename />
       </field>
       <field>
         <name>fecha_firma_contrato</name>
-        <rename />
       </field>
       <field>
         <name>nombre_licitacion</name>
-        <rename />
       </field>
       <field>
         <name>convocante</name>
-        <rename />
       </field>
       <field>
         <name>estado</name>
-        <rename />
       </field>
       <field>
         <name>moneda_simbolo</name>
-        <rename />
       </field>
       <field>
         <name>moneda_descripcion</name>
-        <rename />
       </field>
       <field>
         <name>vigencia_contrato</name>
-        <rename />
       </field>
       <field>
         <name>id_llamado</name>
-        <rename />
       </field>
       <field>
         <name>codigo_contratacion</name>
-        <rename />
       </field>
       <field>
         <name>monto_adjudicado</name>
-        <rename />
       </field>
       <select_unspecified>N</select_unspecified>
       <meta>
@@ -926,10 +912,19 @@
   vigencia_contrato,
 
   id_llamado,
-  codigo_contratacion,
+  c.codigo_contratacion,
   monto_adjudicado
 
-FROM ods.dncp_contratos
+FROM ods.dncp_contratos as c
+join (
+select codigo_contratacion, max(codigo_sicp::int) as codigo_sicp 
+from ods.dncp_contratos
+group by codigo_contratacion
+) contratos_unicos
+on (
+	contratos_unicos.codigo_contratacion = c.codigo_contratacion
+	and contratos_unicos.codigo_sicp = c.codigo_sicp::int
+)
 </sql>
     <limit>0</limit>
     <lookup />
