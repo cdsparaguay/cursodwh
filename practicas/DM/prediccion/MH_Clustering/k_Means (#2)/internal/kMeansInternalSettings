@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="kMeans">
+<entry key="dimensions" type="xint" value="11"/>
+<entry key="ignoredColumns" type="xint" value="9"/>
+<config key="clusterCoverage">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xint" value="2212"/>
+<entry key="1" type="xint" value="25696"/>
+</config>
+<config key="kMeansCluster0">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="131.6749547920434"/>
+<entry key="1" type="xdouble" value="58221.57656276687"/>
+</config>
+<config key="kMeansCluster1">
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xdouble" value="61.12706257783312"/>
+<entry key="1" type="xdouble" value="4146.554941784722"/>
+</config>
+<config key="FeatureNames">
+<entry key="array-size" type="xint" value="11"/>
+<entry key="0" type="xstring" value="diff"/>
+<entry key="1" type="xstring" value="monto_adjudicado"/>
+<entry key="2" type="xstring" isnull="true" value=""/>
+<entry key="3" type="xstring" isnull="true" value=""/>
+<entry key="4" type="xstring" isnull="true" value=""/>
+<entry key="5" type="xstring" isnull="true" value=""/>
+<entry key="6" type="xstring" isnull="true" value=""/>
+<entry key="7" type="xstring" isnull="true" value=""/>
+<entry key="8" type="xstring" isnull="true" value=""/>
+<entry key="9" type="xstring" isnull="true" value=""/>
+<entry key="10" type="xstring" isnull="true" value=""/>
+</config>
+</config>
