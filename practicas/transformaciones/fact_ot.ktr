@@ -871,7 +871,7 @@
       <meta>
         <name>anho</name>
         <rename>anho</rename>
-        <type>None</type>
+        <type>Number</type>
         <length>-2</length>
         <precision>-2</precision>
         <conversion_mask />
@@ -1855,6 +1855,14 @@ FROM ods.mh_orden_transferencia
       <field>
         <column_name>junk_ot</column_name>
         <stream_name>junk_ot</stream_name>
+      </field>
+      <field>
+        <column_name>anho_ot</column_name>
+        <stream_name>anho</stream_name>
+      </field>
+      <field>
+        <column_name>anho_str</column_name>
+        <stream_name>anho</stream_name>
       </field>
     </fields>
     <cluster_schema />
