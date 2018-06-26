@@ -1,0 +1,13 @@
+https://datos.hacienda.gov.py/odmh-core/rest/cdp/datos/cdp_2017.zip
+https://datos.hacienda.gov.py/odmh-core/rest/cdp/datos/cdp_2018.zip
+https://datos.hacienda.gov.py/odmh-core/rest/obligacion/datos/obligacion_2017.zip
+https://datos.hacienda.gov.py/odmh-core/rest/obligacion/datos/obligacion_2018.zip
+https://datos.hacienda.gov.py/odmh-core/rest/str/datos/str_2017.zip
+https://datos.hacienda.gov.py/odmh-core/rest/str/datos/str_2018.zip
+https://datos.hacienda.gov.py/odmh-core/rest/orden-transferencia/datos/orden-transferencia_2017-10.zip
+https://datos.hacienda.gov.py/odmh-core/rest/orden-transferencia/datos/orden-transferencia_2017-11.zip
+https://datos.hacienda.gov.py/odmh-core/rest/orden-transferencia/datos/orden-transferencia_2017-12.zip
+https://datos.hacienda.gov.py/odmh-core/rest/orden-transferencia/datos/orden-transferencia_2018-01.zip
+https://datos.hacienda.gov.py/odmh-core/rest/orden-transferencia/datos/orden-transferencia_2018-02.zip
+https://datos.hacienda.gov.py/odmh-core/rest/orden-transferencia/datos/orden-transferencia_2018-03.zip
+https://datos.hacienda.gov.py/odmh-core/rest/orden-transferencia/datos/orden-transferencia_2018-04.zip
