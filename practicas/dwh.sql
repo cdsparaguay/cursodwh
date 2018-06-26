@@ -206,7 +206,6 @@ concepto_obligacion_descripcion character varying,
 moneda_codigo Numeric(5,0),
 moneda_descripcion character varying,
 tipo_cambio Numeric(17,2),
-codigo_contratacion character varying,
 fuente_financiamiento_codigo character varying,
 fuente_financiamiento_descripcion character varying,
 fecha_vigencia timestamp without time zone,
@@ -215,7 +214,7 @@ actual numeric(1,0),
 checksum character varying,
 CONSTRAINT pk_dim_junk_obligacion PRIMARY KEY (id) );
 
-INSERT INTO dim_junk_obligacion VALUES (0,0,'No Asignado',0,'No Asignado',0,'No Asignado','No Asignado','No Asignado','1950-01-01','1950-01-01',0,'No Asignado');
+INSERT INTO dim_junk_obligacion VALUES (0,0,'No Asignado',0,'No Asignado',0,'No Asignado','No Asignado','1950-01-01','1950-01-01',0,'No Asignado');
 
 CREATE TABLE dim_junk_str (
 id bigserial,
