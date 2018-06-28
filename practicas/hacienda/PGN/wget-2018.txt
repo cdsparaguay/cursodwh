@@ -1,0 +1,12 @@
+https://datos.hacienda.gov.py/odmh-core/rest/pgn-gasto/datos/pgn-gasto_2017-12.zip
+https://datos.hacienda.gov.py/odmh-core/rest/pgn-gasto/datos/pgn-gasto_2018-01.zip
+https://datos.hacienda.gov.py/odmh-core/rest/pgn-gasto/datos/pgn-gasto_2018-02.zip
+https://datos.hacienda.gov.py/odmh-core/rest/pgn-gasto/datos/pgn-gasto_2018-03.zip
+https://datos.hacienda.gov.py/odmh-core/rest/pgn-gasto/datos/pgn-gasto_2018-04.zip
+https://datos.hacienda.gov.py/odmh-core/rest/pgn-gasto/datos/pgn-gasto_2018-05.zip
+https://datos.hacienda.gov.py/odmh-core/rest/pgn-gasto/datos/pgn-gasto_2017-12.md5
+https://datos.hacienda.gov.py/odmh-core/rest/pgn-gasto/datos/pgn-gasto_2018-01.md5
+https://datos.hacienda.gov.py/odmh-core/rest/pgn-gasto/datos/pgn-gasto_2018-02.md5
+https://datos.hacienda.gov.py/odmh-core/rest/pgn-gasto/datos/pgn-gasto_2018-03.md5
+https://datos.hacienda.gov.py/odmh-core/rest/pgn-gasto/datos/pgn-gasto_2018-04.md5
+https://datos.hacienda.gov.py/odmh-core/rest/pgn-gasto/datos/pgn-gasto_2018-05.md5

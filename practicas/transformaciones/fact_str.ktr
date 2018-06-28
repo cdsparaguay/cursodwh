@@ -761,91 +761,69 @@
     <fields>
       <field>
         <name>anho</name>
-        <rename />
       </field>
       <field>
         <name>codigonivel</name>
-        <rename />
       </field>
       <field>
         <name>codigoentidad</name>
-        <rename />
       </field>
       <field>
         <name>codigouaf</name>
-        <rename />
       </field>
       <field>
         <name>clasificador_programa</name>
-        <rename />
       </field>
       <field>
         <name>clasificador_objeto_gasto</name>
-        <rename />
       </field>
       <field>
         <name>codigofuentefinanciamiento</name>
-        <rename />
       </field>
       <field>
         <name>codigoorganismo</name>
-        <rename />
       </field>
       <field>
         <name>clasificador_geografico</name>
-        <rename />
       </field>
       <field>
         <name>clasificador_control_financiero</name>
-        <rename />
       </field>
       <field>
         <name>fecha_ingreso</name>
-        <rename />
       </field>
       <field>
         <name>fecha_aprobacion</name>
-        <rename />
       </field>
       <field>
         <name>fecha_recepcion_tesoro</name>
-        <rename />
       </field>
       <field>
         <name>proveedor</name>
-        <rename />
       </field>
       <field>
         <name>situacion_str_descripcion</name>
-        <rename />
       </field>
       <field>
         <name>tipo_str_codigo</name>
-        <rename />
       </field>
       <field>
         <name>tipo_str_descripcion</name>
-        <rename />
       </field>
       <field>
         <name>detalle_str</name>
-        <rename />
       </field>
       <field>
         <name>cuenta_origen</name>
-        <rename />
       </field>
       <field>
         <name>numero_str</name>
-        <rename />
       </field>
       <field>
         <name>monto_solicitado</name>
-        <rename />
       </field>
       <field>
         <name>monto_deducciones</name>
-        <rename />
       </field>
       <select_unspecified>N</select_unspecified>
       <meta>
@@ -1678,6 +1656,10 @@ FROM ods.mh_str
       <field>
         <column_name>junk_str</column_name>
         <stream_name>junk_str</stream_name>
+      </field>
+      <field>
+        <column_name>anho_str</column_name>
+        <stream_name>anho</stream_name>
       </field>
     </fields>
     <cluster_schema />

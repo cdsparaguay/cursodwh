@@ -1,0 +1,2 @@
+https://www.contrataciones.gov.py/images/opendata/contratos/2018.csv
+https://www.contrataciones.gov.py/images/opendata/contratos/2018.md5
